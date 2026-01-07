@@ -1,16 +1,62 @@
-# React + Vite
+# React + Vite: Dark Mode Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação web desenvolvida com **React** e **Vite** que demonstra a implementação de um sistema de alternância entre temas claro (Light Mode) e escuro (Dark Mode), utilizando estados do React e persistência no armazenamento local do navegador.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **React 19**: Biblioteca principal para construção da interface.
+* **Vite**: Ferramenta de build e servidor de desenvolvimento ultra-rápido.
+* **CSS3**: Estilização com transições suaves e design responsivo.
+* **LocalStorage**: Para salvar a preferência de tema do usuário entre sessões.
+* **Boxicons**: Biblioteca de ícones utilizada para os botões de sol e lua.
 
-## React Compiler
+## 🛠️ Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Alternância de Tema**: Troca dinâmica entre modo claro e escuro através de um botão de toggle.
+* **Persistência de Dados**: A escolha do usuário é salva no `localStorage`, garantindo que o tema não mude ao atualizar a página.
+* **Assets Dinâmicos**: O logotipo e as imagens de exemplo de código mudam automaticamente de acordo com o tema selecionado.
+* **Responsividade**: Layout adaptável para diferentes tamanhos de tela.
 
-## Expanding the ESLint configuration
+## 📦 Como Instalar e Executar
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone o repositório:**
+```bash
+git clone https://github.com/seu-usuario/dark-mode-react.git
+
+```
+
+
+2. **Acesse a pasta do projeto:**
+```bash
+cd dark-mode-react
+
+```
+
+
+3. **Instale as dependências:**
+```bash
+npm install
+
+```
+
+
+4. **Inicie o servidor de desenvolvimento:**
+```bash
+npm run dev
+
+```
+
+
+5. **Acesse no navegador:**
+Disponível em `http://localhost:5173`.
+
+## 📂 Estrutura de Arquivos Principal
+
+* `src/App.jsx`: Contém a lógica de estado do Dark Mode e a estrutura principal do componente.
+* `src/App.css`: Define as variáveis de cores e estilos específicos para as classes `.app` e `.app.dark`.
+* `src/assets/`: Armazena as imagens e logotipos que alternam conforme o tema.
+* `index.html`: Inclui o link para a biblioteca de ícones Boxicons.
+
+## 👨‍🏫 Créditos
+
+Projeto desenvolvido como parte do aprendizado em React com o **Professor Eduardo Gomes**.
