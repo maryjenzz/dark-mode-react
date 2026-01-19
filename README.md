@@ -20,10 +20,3 @@ Este projeto é uma aplicação web desenvolvida que demonstra a implementação
 ## 📦 Como Ver o Projeto
 
 Acesse https://maryjenzz.github.io/dark-mode-react/
-* `src/App.css`: Define as variáveis de cores e estilos específicos para as classes `.app` e `.app.dark`.
-* `src/assets/`: Armazena as imagens e logotipos que alternam conforme o tema.
-* `index.html`: Inclui o link para a biblioteca de ícones Boxicons.
-
-## 👨‍🏫 Créditos
-
-Projeto desenvolvido como parte do aprendizado em React com o **Professor Eduardo Gomes**.
