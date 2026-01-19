@@ -1,6 +1,6 @@
 # React + Vite: Dark Mode Project
 
-Este projeto é uma aplicação web desenvolvida com **React** e **Vite** que demonstra a implementação de um sistema de alternância entre temas claro (Light Mode) e escuro (Dark Mode), utilizando estados do React e persistência no armazenamento local do navegador.
+Este projeto é uma aplicação web desenvolvida que demonstra a implementação de um sistema de alternância entre temas claro (Light Mode) e escuro (Dark Mode), utilizando estados do React e persistência no armazenamento local do navegador.
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -17,42 +17,9 @@ Este projeto é uma aplicação web desenvolvida com **React** e **Vite** que de
 * **Assets Dinâmicos**: O logotipo e as imagens de exemplo de código mudam automaticamente de acordo com o tema selecionado.
 * **Responsividade**: Layout adaptável para diferentes tamanhos de tela.
 
-## 📦 Como Instalar e Executar
+## 📦 Como Ver o Projeto
 
-1. **Clone o repositório:**
-```bash
-git clone https://github.com/seu-usuario/dark-mode-react.git
-
-```
-
-
-2. **Acesse a pasta do projeto:**
-```bash
-cd dark-mode-react
-
-```
-
-
-3. **Instale as dependências:**
-```bash
-npm install
-
-```
-
-
-4. **Inicie o servidor de desenvolvimento:**
-```bash
-npm run dev
-
-```
-
-
-5. **Acesse no navegador:**
-Disponível em `http://localhost:5173`.
-
-## 📂 Estrutura de Arquivos Principal
-
-* `src/App.jsx`: Contém a lógica de estado do Dark Mode e a estrutura principal do componente.
+Acesse https://maryjenzz.github.io/dark-mode-react/
 * `src/App.css`: Define as variáveis de cores e estilos específicos para as classes `.app` e `.app.dark`.
 * `src/assets/`: Armazena as imagens e logotipos que alternam conforme o tema.
 * `index.html`: Inclui o link para a biblioteca de ícones Boxicons.
